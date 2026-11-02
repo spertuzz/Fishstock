@@ -35,6 +35,10 @@ Now, move up one layer in the decision tree. You are now at a position that is e
 
 Finally, imagine repeating this process many, many times, going up the entire tree until you reach the game's current position. Once you reach this state, you already know which path leads to the best possible outcome for the current player. Thus, you have essentially solved the game.
 
+<div align="center">
+    <img src="../assets/minimax.png" alt="visual diagram of minimax" width="600">
+</div>
+
 Yes, this algorithm isn't just good at chess. Technically, it's the best possible player. You cannot make a better algorithm in terms of its "skill".
 
 The only issue is that this would be absurdly slow. Using this algorithm correctly requires going all the way down the decision tree for chess, which is computationally impossible, as there's simply way too many moves. It can't be done in a billion, let alone a trillion years.
