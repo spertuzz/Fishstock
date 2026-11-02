@@ -6,6 +6,10 @@ Have you ever wanted to play chess in your Python console? I think that may not 
 
 *Fishstock* is a Python-based chess bot built entirely from scratch and implemented using the Minimax algorithm. It was made as a fun way to explore search algorithms and try to implement something relatively complicated. That part is very clear, since my implementation is... unorthodox. Either way, it works.
 
+<div align="center">
+    <img src="../assets/showcase0.png" alt="Game image" width="600">
+</div>
+
 Sort of.
 
 It's called "Fishstock" as a parody of the *actual* best chess engine in the world, which is called "Stockfish". So, this is meant to convey that my bot isn't... amazing. The main bottleneck is computing power. I can't run more than 3 depth layers on this without it taking an eternity. Maybe my implementation, full of dictionaries and stuff, doesn't help. And I did make the heuristic "by hand".
